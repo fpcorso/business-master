@@ -3,7 +3,7 @@
 /*
 Plugin Name: Business Master
 Description: The ultimate plugin for businesses.
-Version: 0.1.5
+Version: 0.2.1
 Author: Frank Corso
 Author URI: http://www.mylocalwebstop.com/
 Plugin URI: http://www.mylocalwebstop.com/
@@ -26,6 +26,7 @@ include("includes/mlw_bm_dashboard.php");
 include("includes/mlw_bm_install.php");
 include("includes/mlw_bm_update.php");
 include("includes/mlw_bm_collect_stats.php");
+include("includes/bm_dashboard_widgets.php");
 
 
 ///Activation Actions
