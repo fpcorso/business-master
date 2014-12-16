@@ -3,7 +3,7 @@
 function mlw_bm_update()
 {
 	//Update this variable each update. This is what is checked when the plugin is deciding to run the upgrade script or not.
-	$data = "0.1.5";
+	$data = "0.2.1";
 	if ( ! get_option('mlw_bm_version'))
 	{
 		add_option('mlw_bm_version' , $data);
