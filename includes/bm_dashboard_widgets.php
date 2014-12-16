@@ -52,7 +52,7 @@ function bm_snapshot_dashboard_widget()
 	{
 		$mlw_site_url = str_replace( "www." , '', $mlw_site_url);
 	}
-	$mlw_bm_referrer_views = $wpdb->get_row( "SELECT referrer, COUNT(referrer) AS count FROM ".$wpdb->prefix."mlw_bm_stats WHERE browser <> 'Robot' AND (referrer NOT LIKE '%".$mlw_site_url."%' AND referrer NOT LIKE '%None%') AND  (visit_time BETWEEN '".$mlw_this_month." 00:00:00' AND '".date("Y-m-d")." 23:59:59') GROUP BY referrer ORDER BY 2 DESC LIMIT 1" );
+	$mlw_bm_referrer_views = $wpdb->get_row( "SELECT referrer, COUNT(referrer) AS count FROM ".$wpdb->prefix."mlw_bm_stats WHERE browser <> 'Robot' AND (referrer NOT LIKE '%".$mlw_site_url."%' AND referrer NOT LIKE '%None%') AND  (visit_time BETWEEN '".date("Y-m-d")." 00:00:00' AND '".date("Y-m-d")." 23:59:59') GROUP BY referrer ORDER BY 2 DESC LIMIT 1" );
 	
 	
 	?>
