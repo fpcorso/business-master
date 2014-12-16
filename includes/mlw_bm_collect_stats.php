@@ -5,6 +5,11 @@ function mlw_bm_get_stats_action()
 	//Only gather stats from anyone not an admin
 	if ( !current_user_can( 'manage_options' ) )
 	{
+		//We do not need to gather stats from ajax calls or other times our own server pings the site
+		if (isset($_SERVER['REMOTE_ADDR']) && isset($_SERVER['SERVER_ADDR']) && $_SERVER['REMOTE_ADDR'] == $_SERVER['SERVER_ADDR'])
+		{
+			return false;
+		}
 		//Gather the variables and information
 		isset($_SERVER['REMOTE_ADDR']) ? $mlw_bm_ip = $_SERVER['REMOTE_ADDR'] : $mlw_bm_ip = "Unknown";
 		isset($_SERVER['HTTP_REFERER']) ? $mlw_bm_referrer = $_SERVER['HTTP_REFERER'] : $mlw_bm_referrer = "None";
