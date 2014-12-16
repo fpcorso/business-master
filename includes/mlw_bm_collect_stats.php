@@ -19,98 +19,98 @@ function mlw_bm_get_stats_action()
 		
 		//Search the User Agent for browser
 		if ( stripos($mlw_bm_user_comp_info, 'Firefox') !== false ) {
-	            $mlw_bm_browser = 'Firefox';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'MSIE') !== false || stripos($mlw_bm_user_comp_info, 'Trident/7.0') !== false ) {
-	            $mlw_bm_browser = 'Internet Explorer';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'Opera') !== false ) {
-	            $mlw_bm_browser = 'Opera';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'iPad') !== false ) {
-	            $mlw_bm_browser = 'iPad';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'iPhone') !== false ) {
-	            $mlw_bm_browser = 'iPhone';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'Android') !== false ) {
-	            $mlw_bm_browser = 'Android';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'BlackBerry') !== false ) {
-	            $mlw_bm_browser = 'BlackBerry';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'Chrome') !== false ) {
-	            $mlw_bm_browser = 'Chrome';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'Chimera') !== false ) {
-	            $mlw_bm_browser = 'Chimera';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'Safari') !== false ) {
-	            $mlw_bm_browser = 'Safari';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'PaleMoon') !== false ) {
-	            $mlw_bm_browser = 'PaleMoon';
-			} elseif ( stripos($mlw_bm_user_comp_info, 'SeaMonkey') !== false ) {
-	            $mlw_bm_browser = 'SeaMonkey';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'Googlebot') !== false ) {
-	            $mlw_bm_browser = 'Robot';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'XoviBot') !== false ) {
-	            $mlw_bm_browser = 'Robot';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'NerdyBot') !== false ) {
-	            $mlw_bm_browser = 'Robot';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'YandexBot') !== false ) {
-	            $mlw_bm_browser = 'Robot';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'Baiduspider') !== false ) {
-	            $mlw_bm_browser = 'Robot';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'DotBot') !== false ) {
-	            $mlw_bm_browser = 'Robot';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'Yahoo! Slurp') !== false ) {
-	            $mlw_bm_browser = 'Robot';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'Twitterbot') !== false ) {
-	            $mlw_bm_browser = 'Robot';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'bingbot') !== false ) {
-	            $mlw_bm_browser = 'Robot';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'CCBot') !== false ) {
-	            $mlw_bm_browser = 'Robot';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'Sogou web spider') !== false ) {
-	            $mlw_bm_browser = 'Robot';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'SMTBot') !== false ) {
-	            $mlw_bm_browser = 'Robot';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'SeznamBot') !== false ) {
-	            $mlw_bm_browser = 'Robot';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'SiteExplorer') !== false ) {
-	            $mlw_bm_browser = 'Robot';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'meanpathbot') !== false ) {
-	            $mlw_bm_browser = 'Robot';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'CrawlBot') !== false ) {
-	            $mlw_bm_browser = 'Robot';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'Exabot') !== false ) {
-	            $mlw_bm_browser = 'Robot';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'ContextAd Bot') !== false ) {
-	            $mlw_bm_browser = 'Robot';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'GrapeshotCrawler') !== false ) {
-	            $mlw_bm_browser = 'Robot';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'NetSeer crawler') !== false ) {
-	            $mlw_bm_browser = 'Robot';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'AlphaBot') !== false ) {
-	            $mlw_bm_browser = 'Robot';
-	        } elseif ( stripos($mlw_bm_user_comp_info, '200PleaseBot') !== false ) {
-	            $mlw_bm_browser = 'Robot';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'spbot') !== false ) {
-	            $mlw_bm_browser = 'Robot';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'PWBot') !== false ) {
-	            $mlw_bm_browser = 'Robot';
-	        } elseif ( stripos($mlw_bm_user_comp_info, 'archive.org_bot') !== false ) {
-	            $mlw_bm_browser = 'Robot';
-	        } elseif ( stripos($mlw_bm_user_comp_info, '007ac9 Crawler') !== false ) {
-	            $mlw_bm_browser = 'Robot';
-			} elseif ( stripos($mlw_bm_user_comp_info, 'A6-Indexer') !== false ) {
-	            $mlw_bm_browser = 'Robot';
-			} elseif ( stripos($mlw_bm_user_comp_info, 'Riddler') !== false ) {
-	            $mlw_bm_browser = 'Robot';
-			} elseif ( stripos($mlw_bm_user_comp_info, 'Icarus6j') !== false ) {
-	            $mlw_bm_browser = 'Robot';
-			} elseif ( stripos($mlw_bm_user_comp_info, 'Mail.RU_Bot') !== false ) {
-	            $mlw_bm_browser = 'Robot';
-			} elseif ( stripos($mlw_bm_user_comp_info, 'oBot') !== false ) {
-	            $mlw_bm_browser = 'Robot';
-			} elseif ( stripos($mlw_bm_user_comp_info, 'proximic') !== false ) {
-	            $mlw_bm_browser = 'Robot';
-			} elseif ( stripos($mlw_bm_user_comp_info, 'linkdexbot') !== false ) {
-	            $mlw_bm_browser = 'linkdexbot';
-	        } else {
-	        	$mlw_bm_browser = 'Other';
-	        }
+			$mlw_bm_browser = 'Firefox';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'MSIE') !== false || stripos($mlw_bm_user_comp_info, 'Trident/7.0') !== false ) {
+			$mlw_bm_browser = 'Internet Explorer';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'Opera') !== false ) {
+			$mlw_bm_browser = 'Opera';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'iPad') !== false ) {
+			$mlw_bm_browser = 'iPad';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'iPhone') !== false ) {
+			$mlw_bm_browser = 'iPhone';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'Android') !== false ) {
+			$mlw_bm_browser = 'Android';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'BlackBerry') !== false ) {
+			$mlw_bm_browser = 'BlackBerry';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'Chrome') !== false ) {
+			$mlw_bm_browser = 'Chrome';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'Chimera') !== false ) {
+			$mlw_bm_browser = 'Chimera';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'Safari') !== false ) {
+			$mlw_bm_browser = 'Safari';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'PaleMoon') !== false ) {
+			$mlw_bm_browser = 'PaleMoon';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'SeaMonkey') !== false ) {
+			$mlw_bm_browser = 'SeaMonkey';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'Googlebot') !== false ) {
+			$mlw_bm_browser = 'Robot';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'XoviBot') !== false ) {
+			$mlw_bm_browser = 'Robot';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'NerdyBot') !== false ) {
+			$mlw_bm_browser = 'Robot';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'YandexBot') !== false ) {
+			$mlw_bm_browser = 'Robot';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'Baiduspider') !== false ) {
+			$mlw_bm_browser = 'Robot';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'DotBot') !== false ) {
+			$mlw_bm_browser = 'Robot';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'Yahoo! Slurp') !== false ) {
+			$mlw_bm_browser = 'Robot';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'Twitterbot') !== false ) {
+			$mlw_bm_browser = 'Robot';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'bingbot') !== false ) {
+			$mlw_bm_browser = 'Robot';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'CCBot') !== false ) {
+			$mlw_bm_browser = 'Robot';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'Sogou web spider') !== false ) {
+			$mlw_bm_browser = 'Robot';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'SMTBot') !== false ) {
+			$mlw_bm_browser = 'Robot';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'SeznamBot') !== false ) {
+			$mlw_bm_browser = 'Robot';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'SiteExplorer') !== false ) {
+			$mlw_bm_browser = 'Robot';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'meanpathbot') !== false ) {
+			$mlw_bm_browser = 'Robot';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'CrawlBot') !== false ) {
+			$mlw_bm_browser = 'Robot';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'Exabot') !== false ) {
+			$mlw_bm_browser = 'Robot';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'ContextAd Bot') !== false ) {
+			$mlw_bm_browser = 'Robot';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'GrapeshotCrawler') !== false ) {
+			$mlw_bm_browser = 'Robot';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'NetSeer crawler') !== false ) {
+			$mlw_bm_browser = 'Robot';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'AlphaBot') !== false ) {
+			$mlw_bm_browser = 'Robot';
+		} elseif ( stripos($mlw_bm_user_comp_info, '200PleaseBot') !== false ) {
+			$mlw_bm_browser = 'Robot';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'spbot') !== false ) {
+			$mlw_bm_browser = 'Robot';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'PWBot') !== false ) {
+			$mlw_bm_browser = 'Robot';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'archive.org_bot') !== false ) {
+			$mlw_bm_browser = 'Robot';
+		} elseif ( stripos($mlw_bm_user_comp_info, '007ac9 Crawler') !== false ) {
+			$mlw_bm_browser = 'Robot';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'A6-Indexer') !== false ) {
+			$mlw_bm_browser = 'Robot';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'Riddler') !== false ) {
+			$mlw_bm_browser = 'Robot';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'Icarus6j') !== false ) {
+			$mlw_bm_browser = 'Robot';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'Mail.RU_Bot') !== false ) {
+			$mlw_bm_browser = 'Robot';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'oBot') !== false ) {
+			$mlw_bm_browser = 'Robot';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'proximic') !== false ) {
+			$mlw_bm_browser = 'Robot';
+		} elseif ( stripos($mlw_bm_user_comp_info, 'linkdexbot') !== false ) {
+			$mlw_bm_browser = 'linkdexbot';
+		} else {
+			$mlw_bm_browser = 'Other';
+		}
 	   	//Search the User Agent for OS
 	   	if ( stripos($mlw_bm_user_comp_info, 'Windows') !== false ) {
 	            $mlw_bm_platform = 'Windows';
