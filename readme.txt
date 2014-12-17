@@ -3,8 +3,8 @@ Contributors: fpcorso
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RTGYAETX36ZQJ
 Tags: stats, business, admin, views, uniques
 Requires at least: 3.8.1
-Tested up to: 4.0
-Stable tag: 0.1.5
+Tested up to: 4.1
+Stable tag: 0.2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 The best tool for analysing your website.
@@ -59,13 +59,17 @@ Feel free to use the widget on the quiz dashboard within the plugin or from the 
 
 == Changelog ==
 
+= 0.2.1 (December 17, 2014) =
+ * Added New Dashboard Widget To Easily Get Today's Snapshot
+ * Made Slight Change To Avoid Own Server Getting In Stats From Ajax Calls And Other Pings
+
 = 0.1.5 (November 24, 2014) =
  * Added New Browser To Detect - Sea Monkey
  * Added New Robots To Detect - Riddler, A6, Icarus6j, Mail.RU_Bot, oBot, proximic, linkdexbot
  * Added New OS - Chrome OS
 
 = 0.1.4 (November 2, 2014) =
- * Added ability to detect iOS
+ * Added Ability To Detect iOS
  * Added New Robots To Detect - SeznamBot, SiteExplorer, meanpathbot, CrawlBot, Exabot, And More
 
 = 0.1.3 (October 21, 2014) =
@@ -79,6 +83,9 @@ Feel free to use the widget on the quiz dashboard within the plugin or from the 
  * Begun Development
 
 == Upgrade Notice ==
+
+= 0.2.1 =
+Upgrade for new dashboard widget for today's snapshot
 
 = 0.1.5 =
 Added new robots/spiders to detect.
