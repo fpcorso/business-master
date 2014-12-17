@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: stats, business, admin, views, uniques
 Requires at least: 3.8.1
 Tested up to: 4.1
-Stable tag: 0.2.1
+Stable tag: 0.2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 The best tool for analysing your website.
