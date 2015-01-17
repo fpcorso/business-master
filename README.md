@@ -1,4 +1,4 @@
 business-master
 ===============
 
-Open Source Repository For The Business Master Plugin
+This is a plugin to track user views. 
